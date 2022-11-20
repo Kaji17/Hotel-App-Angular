@@ -9,7 +9,7 @@ import { HotelListComponent } from './hotel-list/hotel-list.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    HotelListComponent
+    HotelListComponent,
   ],
   imports: [
     BrowserModule
