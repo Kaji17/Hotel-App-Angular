@@ -1,0 +1,23 @@
+header{
+    background-color: 	#b2d8d8;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin-right: 1rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
