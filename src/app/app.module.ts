@@ -5,6 +5,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HotelListComponent } from './hotel-list/hotel-list.component';
+import { registerLocaleData } from '@angular/common';
+import localFr from '@angular/common/locales/fr';
+
+registerLocaleData(localFr, 'fr')
 
 @NgModule({
   declarations: [
