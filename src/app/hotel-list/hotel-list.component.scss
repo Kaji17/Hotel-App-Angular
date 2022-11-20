@@ -21,6 +21,15 @@ main{
         margin-left: 1rem;
         margin-top: 1rem;
     }
+    &__badgeNew{
+        background-color: 	#008080;
+        width: fit-content;
+        border-radius: 10px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
 }
 .hotel-card__img{
     &--size{
@@ -31,9 +40,31 @@ main{
     }
     +p{
         font-weight: bold;
+        font-size: 1.5em;
     }
     :hover{
         transform: scale(1.1) ;
     }
-    overflow: hidden; 
+    overflow: hidden;
+
+}
+
+.badgeButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008080;
+    margin-bottom: 2rem;
+    border-width: 0px;
+    >.material-icons{
+        margin-right: 1rem;
+    }
+}
+
+.textwhite{
+    color: white;
+}
+.container__research{
+    display: flex;
+    justify-content: space-between;
 }
