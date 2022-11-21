@@ -13,11 +13,21 @@ ul{
     list-style: none;
 }
 
-ul li{
-    margin-right: 1rem;
-}
-
-ul li a{
-    text-decoration: none;
-    color: black;
+ul {
+    >li{
+        margin-right: 1rem;
+        border: 1px solid #008080;
+        border-radius: 10px;
+        >a{
+            text-decoration: none;
+            color: black;
+            padding: 1em;
+            &:hover{
+                color: white;
+            }
+        }&:hover{
+            background-color: #008080;
+        }
+    }
+    
 }
