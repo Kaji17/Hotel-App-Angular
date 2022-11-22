@@ -17,12 +17,12 @@
             </p>
 
             <div>
-                <input type="text" [(ngModel)]="hotelFilter">
+                <input type="text" [(ngModel)]="hotelFilter" placeholder="Nom de l'hotel">
             </div>
         </div>
     </div>
     <main>
-        <div class="hotel-card" *ngFor="let hotel of hotels">
+        <div class="hotel-card" *ngFor="let hotel of filterHotelList">
             <div class="hotel-card__img">
                 <img src="{{ hotel.hotelImgUrl }}" alt="hotel {{ hotel.hotelName }}" class="hotel-card__img--size">
             </div>
