@@ -8,6 +8,7 @@
     margin-bottom: 1rem;
   }
   &__research{
+    margin-bottom: 2rem;
     >p{
         >.textBold{
             font-weight: bold;
@@ -28,11 +29,11 @@ main{
     display: flex;
     flex-wrap: wrap;
     row-gap: 2rem;
-    justify-content: space-between;
 }
 .hotel-card{
     border: 1px solid rgb(145, 144, 144);
     width: 33%;
+    margin-right: 3px;
     p{
         margin-left: 1rem;
         margin-top: 1rem;
