@@ -85,3 +85,16 @@ export class HotelListComponent {
   public get hotelFilter(): string {
     return this._hotelFilter;
   }
+
+  public set hotelFilter(filter: string) {
+    this._hotelFilter = filter;
+    this.filterHotelList = this._hotelFilter ? this.filterHotel(this.hotels, this.hotelFilter) : this.hotels
+  }
+
+  private filterHotel(array: Array<IHotel>, request: string) {
+    return array.filter(function (el) {
+      return el.hotelName.toLocaleLowerCase().indexOf(request) !== -1
+    })
+  }
+}
+
