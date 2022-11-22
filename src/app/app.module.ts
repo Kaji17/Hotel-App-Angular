@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HotelListComponent } from './hotel-list/hotel-list.component';
 import { registerLocaleData } from '@angular/common';
+import {NgPipesModule} from 'ngx-pipes';
+
 import localFr from '@angular/common/locales/fr';
+import { StarRatingComponent } from './shared/component/star-rating/star-rating.component';
 
 registerLocaleData(localFr, 'fr')
 
@@ -15,10 +18,12 @@ registerLocaleData(localFr, 'fr')
     AppComponent,
     HeaderComponent,
     HotelListComponent,
+    StarRatingComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    NgPipesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
