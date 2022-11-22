@@ -28,10 +28,10 @@
             </div>
             <p>{{ hotel.hotelName }}</p>
             <p>{{ hotel.hotelDescription }}</p>
-            <p>{{ hotel.hotelPrice | currency: 'EUR': 'symbol': '1.2-2': 'fr' }}</p>
-            <div class="hotel-card__badgeNew textwhite" *ngIf="showBadge">
-                Nouveau
-            </div>
+            <p>{{ hotel.hotelPrice | currency: 'EUR': 'symbol': '1.2-2': 'fr'}}</p>
+            <app-star-rating [rating]="hotel.rating"></app-star-rating>
+            <div class="hotel-card__badgeNew textwhite" *ngIf="showBadge">Nouveau</div>
+          
         </div>
     </main>
 </div>
