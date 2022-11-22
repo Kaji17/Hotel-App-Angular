@@ -66,11 +66,19 @@ export class HotelListComponent {
 
   ];
 
-  public hotelFilter= "mot";
-  
+  // Listes D'hotels retourner après recherche
+  public filterHotelList: IHotel[] = [];
+  private _hotelFilter="mot";
+  ngOnInit(): void {
+    // Initialisation de la liste de recherche a la liste de tout les hotels au debut du prog
+    this.filterHotelList = this.hotels;
+
+    this.hotelFilter = "";
+  }
+
   public showBadge!: boolean;
-  
-  public toggleIsNewBadge(): void{
+
+  public toggleIsNewBadge(): void {
     this.showBadge = !this.showBadge;
   }
-}
+  }
