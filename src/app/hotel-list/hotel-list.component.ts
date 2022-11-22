@@ -6,9 +6,9 @@ import { IHotel } from '../model/hotel';
   templateUrl: './hotel-list.component.html',
   styleUrls: ['./hotel-list.component.scss']
 })
-export class HotelListComponent {
+export class HotelListComponent implements OnInit {
 
-  public hotels: IHotel[] =[
+  public hotels: IHotel[] = [
     {
       hotelId: 1,
       hotelName: "BelCote",
