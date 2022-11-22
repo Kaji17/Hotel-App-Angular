@@ -17,6 +17,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Abidjan",
       hotelImgUrl: "../../assets/img/hotel1.jpg",
       place: 20,
+      rating: 3.5
     },
     {
       hotelId: 2,
@@ -26,6 +27,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Yamoussoukro",
       hotelImgUrl: "../../assets/img/hotel2.jpg",
       place: 30,
+      rating: 5
     },
     {
       hotelId: 3,
@@ -35,6 +37,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Assinie",
       hotelImgUrl: "../../assets/img/hotel3.jpg",
       place: 4,
+      rating: 5
     },
     {
       hotelId: 4,
@@ -44,6 +47,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Abidjan",
       hotelImgUrl: "../../assets/img/hotel4.jpg",
       place: 20,
+      rating: 3
     },
     {
       hotelId: 5,
@@ -53,6 +57,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Man",
       hotelImgUrl: "../../assets/img/hotel5.jpg",
       place: 100,
+      rating: 4
     },
     {
       hotelId: 6,
@@ -62,6 +67,7 @@ export class HotelListComponent implements OnInit {
       hotelLocation: "Abidjan",
       hotelImgUrl: "../../assets/img/hotel6.jpg",
       place: 17,
+      rating: 2.5
     },
 
   ];
@@ -88,7 +94,8 @@ export class HotelListComponent implements OnInit {
 
   public set hotelFilter(filter: string) {
     this._hotelFilter = filter;
-    this.filterHotelList = this._hotelFilter ? this.filterHotel(this.hotels, this.hotelFilter) : this.hotels
+    this.filterHotelList = this._hotelFilter ? this.filterHotel(this.hotels, this.hotelFilter) : this.hotels;
+    
   }
 
   private filterHotel(array: Array<IHotel>, request: string) {

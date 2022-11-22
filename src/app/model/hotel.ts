@@ -6,5 +6,6 @@ export class IHotel {
    hotelLocation!: string;
    hotelImgUrl!: string;
    place!: number;
+   rating!: number;
    
 }
