@@ -81,4 +81,7 @@ export class HotelListComponent {
   public toggleIsNewBadge(): void {
     this.showBadge = !this.showBadge;
   }
+
+  public get hotelFilter(): string {
+    return this._hotelFilter;
   }
