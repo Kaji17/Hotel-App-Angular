@@ -1,0 +1,34 @@
+<div class="detail">
+  <div class="hotel-detail-card" *ngIf="hotel">
+
+    <div class="hotel-detail-card__header">
+      <h4>{{ hotel.hotelName }}</h4>
+    </div>
+
+    <div class="hotel-detail-card__content">
+      <div class="hotel-detail-card__desc">
+        <span>Nom:</span>
+        <span>{{ hotel.hotelName}}</span>
+        <span>Description:</span>
+        <span>{{ hotel.hotelDescription}}</span>
+        <span>Prix</span>
+        <span>{{ hotel.hotelPrice | currency: 'EUR': 'symbol': '1.2-2': 'fr'}}</span>
+        <span>Note:</span>
+        <app-star-rating [rating]="hotel.rating"></app-star-rating>
+      </div>
+
+      <div class="hotel-detail-card__img">
+        <img src="{{ hotel.hotelImgUrl }}" alt="hotel {{ hotel.hotelName }}" class="hotel-detail-card__img--size">
+      </div>
+    </div>
+
+    <div class="hotel-detail-card__footer">
+      <button (click)="backToList()">
+        <span class="material-icons">keyboard_arrow_left</span>
+        revenir à la liste
+      </button>
+
+    </div>
+
+  </div>
+</div>
