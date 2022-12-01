@@ -1,11 +1,13 @@
 <header>
-    <nav>
-        <h3>{{ title }}</h3>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Nous Contacter</a></li>
-            <li><a href="#">S'inscrire</a></li>
-            <li><a href="#">Se Connecter</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <h3 [routerLink]="['']">{{ title }}</h3>
+    <ul class="nav-list">
+      <li routerLinkActive="active" class="nav-list__li">
+        <span [routerLink]="['/home']">Accueil</span>
+      </li>
+      <li routerLinkActive="active" class="nav-list__li">
+        <span [routerLink]="['/hotels']">Hotels</span>
+      </li>
+    </ul>
+  </nav>
 </header>
