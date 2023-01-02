@@ -5,7 +5,7 @@
     "hotelDescription": "Petit endroit chic pour les couples",
     "hotelPrice": 2000,
     "hotelLocation": "Abidjan",
-    "hotelImgUrl": "../../assets/img/hotel1.jpg",
+    "hotelImgUrl": "https://www.hotelbeige.paris/wp-content/uploads/sites/266/2022/05/hotel-beige-chambre-deluxe-002.jpg",
     "place": 20,
     "rating": 3.5
   },
@@ -15,7 +15,7 @@
     "hotelDescription": "L'excelence en terme d'hotal",
     "hotelPrice": 2500,
     "hotelLocation": "Yamoussoukro",
-    "hotelImgUrl": "../../assets/img/hotel2.jpg",
+    "hotelImgUrl": "https://www.voyages-d-affaires.com/wp-content/uploads/2018/09/noom-hotel-conakry.jpg",
     "place": 30,
     "rating": 5
   },
@@ -25,7 +25,7 @@
     "hotelDescription": "Bronzé en toute quiétude",
     "hotelPrice": 1500,
     "hotelLocation": "Assinie",
-    "hotelImgUrl": "../../assets/img/hotel3.jpg",
+    "hotelImgUrl": "https://toohotel.com/wp-content/uploads/2022/09/TOO_Hotel_Suite_Bathroom_Panoramique.jpg",
     "place": 4,
     "rating": 5
   },
@@ -35,7 +35,7 @@
     "hotelDescription": "Rencontrer votre âme soeur",
     "hotelPrice": 1000,
     "hotelLocation": "Abidjan",
-    "hotelImgUrl": "../../assets/img/hotel4.jpg",
+    "hotelImgUrl": "https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg",
     "place": 20,
     "rating": 3
   },
@@ -45,7 +45,7 @@
     "hotelDescription": "for king and queen",
     "hotelPrice": 4000,
     "hotelLocation": "Man",
-    "hotelImgUrl": "../../assets/img/hotel5.jpg",
+    "hotelImgUrl": "https://i.ytimg.com/vi/mzWok01woaE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBzrPmlwS_Xv5OaGXKpi6UWStL7aQ",
     "place": 100,
     "rating": 4
   },
@@ -55,7 +55,7 @@
     "hotelDescription": "Uniquement réserver au jeu",
     "hotelPrice": 1700,
     "hotelLocation": "Abidjan",
-    "hotelImgUrl": "../../assets/img/hotel6.jpg",
+    "hotelImgUrl": "https://cache.marriott.com/marriottassets/marriott/VIEIL/vieil-facade-9816-hor-feat.jpg",
     "place": 17,
     "rating": 2.5
   }
